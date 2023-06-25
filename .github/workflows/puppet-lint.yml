@@ -19,8 +19,7 @@ on:
   schedule:
     - cron: '32 13 * * 3'
 
-permissions:
-  contents: read
+permissions: write-all
 
 jobs:
   puppet-lint:
